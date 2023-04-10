@@ -1,0 +1,220 @@
+		@font-face 
+		{
+			font-family: Bahnschrift;
+			src: url(fonts/BAHNSCHRIFT1.ttf);
+		}
+
+		* {
+			font-family: Bahnschrift;
+			margin: 0;
+		}
+
+		header {	
+			background-size: 100%;	
+			position: sticky;
+			top: 0;
+			position: relative;
+			height: 10px;
+			border-radius: 25px 25px 0 0;
+		}
+
+		#logo {
+			width: 100px;
+			float: left;
+			margin-left: 20px;
+		}
+
+		nav {
+			font-size: 22px;
+			background-color: #048938;
+			width: 100%;
+			height: 40px;
+			position: sticky;
+			/*this is meant to make it sticky but i 
+			changed some stuff in the code to add the 
+			logo and it suddenly stopped working and i 
+			have 0 idea where it went wrong so im just 
+			leaving it as is*/
+			top: 0;
+			margin: 0;
+			padding: 20px;
+		}
+
+		div.nav {
+			float: left;
+			display: block;
+			margin: 10px 160px;
+			font-family: Arvo-Reg;
+		}
+
+		a {
+			text-decoration: none;
+		}
+		
+
+		a:link {
+			color: white;
+		}
+
+		a:visited {
+			color: white;
+		}
+
+		a:hover {
+			color: gray;
+		}
+
+		a:active {
+			color: gray;
+		}
+
+		footer {
+			width: 100%;
+			height: 75px;
+			background-color: #8e99a8;
+			margin: 0;
+
+		}
+
+		#nav {
+			position: relative;
+		}
+
+		#nav li {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			position: absolute;
+		}
+
+		#nav li, #nav a {
+			height: 46px;
+			display: block;
+		}
+
+		#fb {
+			top: 10px;
+			left: 300px;
+			width: 46px;
+			background: url(images/nice.png) -68px -4px;
+		}
+
+		#email {
+			top: 10px;
+			left:600px;
+			width: 46px;
+			background: url(images/nice.png) -4px -4px;
+		}
+
+		#ig {
+			top: 10px;
+			left:900px;
+			width: 46px;
+			background: url(images/nice.png) -383px -4px;
+		}
+
+		#main {
+			margin: 10px;
+			border: solid #048938 2px;
+			overflow: auto;
+		}
+
+		#indexh {
+			font-size: 60px;
+			padding: 20px;
+		}
+
+		article {
+			font-size: 30px;
+			padding: 20px;
+			line-height: 50px;
+			width: 100%;
+		}
+
+		#wow {
+			width: 60%;
+			float: left;
+		}
+
+		#divpic {
+			margin: 35px 45px 35px 10px;
+			width: 30%;		
+			float: right;
+		}
+
+		#pic1 {
+			width: 100%;
+		}
+
+		#wow1 {
+			width: 50%;
+			float: right;
+			margin: 20px 45px 20px 10px;
+		}
+
+		#divpic1 {
+			margin: 35px 10px 35px 45px;
+			width: 40%;		
+			float: left;
+		}
+
+		#main1 {
+			margin: 10px;
+			background-color:#048938;
+			padding: 20px;
+			position: relative;
+			width: 	85%;
+			left:  60px; 
+		}
+
+		#indexh1 {
+			font-size: 60px;
+			padding: 20px;
+			color: white;
+		}
+
+		#content {
+			width: 90%;
+			margin: 10px 10px 0px 60px;
+			position: relative;
+		}
+
+		#flask {
+			margin-left: auto;
+			margin-right: auto;
+			width: 100%;
+			height: auto;
+
+		}
+
+		#words {
+  			position: absolute;
+  			width: 90%;
+  			top: 25%;
+  			left: 23%;
+  			transform: translate(-20%, -20%);
+  			font-size: 30px;
+  			line-height: 50px;
+  			text-align: justify;
+}
+		#indexh {
+			font-size: 40px;
+			padding: 20px;	
+		}
+
+		#blue {
+			font-size: 30px;
+			padding: 5px;
+			line-height: 30px;
+			width: 80%;
+		}
+
+		#ohno {
+			color: black;
+		}
+
+		#pic2 {
+			margin: 0 0 0 100px;
+			width: 70%;
+		}
+		
